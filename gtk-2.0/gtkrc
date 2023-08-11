@@ -27,7 +27,16 @@ style "default"
   fg[INSENSITIVE]	= "#a89984"
   fg[ACTIVE]		= "#fbf1c7"
 
-  base[NORMAL]		= "#504945"
+  base[NORMAL]		= "#3c3836"
+}
+
+style "button"
+{
+  bg[NORMAL]		= "#3c3836"
+  bg[PRELIGHT]		= "#689d6a"
+  bg[SELECTED]		= "#458588"
+  bg[INSENSITIVE]	= "#282828"
+  bg[ACTIVE]		= "#689d6a"
 }
 
 style "scrollbar"
@@ -48,18 +57,19 @@ style "scrollbar"
 style "menu"
 {
   xthickness = 0 # to remove black left border
-#  ythickness = 0 # to remove black top border (breaks menu)
+  ythickness = 0 # to remove black top border (breaks menu)
 
-  bg[NORMAL]		= "#3c3836"
-  bg[PRELIGHT]		= "#3c3836"
-  bg[SELECTED]		= "#3c3836"
-  bg[INSENSITIVE]	= "#3c3836"
-  bg[ACTIVE]		= "#3c3836"
+  bg[NORMAL]		= "#504945"
+  bg[PRELIGHT]		= "#504945"
+  bg[SELECTED]		= "#504945"
+  bg[INSENSITIVE]	= "#504945"
+  bg[ACTIVE]		= "#504945"
 
   text[NORMAL]		= "#fbf1c7"
 }
 
-class "GtkWidget"                      style "default"
-class "GtkScrollbar"                   style "scrollbar"
+class "GtkWidget"	style "default"
+class "GtkButton"	style "button"
+class "GtkScrollbar"	style "scrollbar"
 
 widget_class   "*<GtkMenu>*"           style "menu"
