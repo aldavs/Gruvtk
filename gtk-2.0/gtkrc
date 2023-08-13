@@ -5,10 +5,6 @@ style "default"
   xthickness		= 1
   ythickness		= 1
 
-#  GtkScrollbar::has-backward-stepper = 0
-#  GtkScrollbar::has-forward-stepper = 0
-#  GtkScrollbar::slider-width = 10
-
   bg[NORMAL]		= "#282828"
   bg[PRELIGHT]		= "#689d6a"
   bg[SELECTED]		= "#458588"
@@ -28,6 +24,24 @@ style "default"
   fg[ACTIVE]		= "#fbf1c7"
 
   base[NORMAL]		= "#3c3836"
+  base[PRELIGHT]	= "#ebdbb2"
+  base[SELECTED]	= "#458588"
+  base[INSENSITIVE]	= "#a89984"
+  base[ACTIVE]		= "#a89984"
+
+#  GtkScrollbar::has-backward-stepper = 0
+#  GtkScrollbar::has-forward-stepper = 0
+#  GtkScrollbar::slider-width = 10
+
+  GtkWidget::link-color =		"#458588"
+  GtkWidget::visited-link-color =	"#b16286"
+  GtkHTML::alink-color =		"#458588"
+  GtkHTML::link-color =			"#458588"
+  GtkHTML::vlink-color =		"#b16286"
+  GnomeHref::link-color =		"#458588"
+  GtkIMHtml::hyperlink-color =		"#458588"
+  GtkIMHtml::hyperlink-prelight-color =	"#458588"
+
 }
 
 style "button"
@@ -70,6 +84,7 @@ style "menu"
 
 class "GtkWidget"	style "default"
 class "GtkButton"	style "button"
+class "GtkLabel"	style "default"
 class "GtkScrollbar"	style "scrollbar"
 
 widget_class   "*<GtkMenu>*"           style "menu"
