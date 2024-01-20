@@ -1,2 +1,2 @@
 # Gruvtk
-A minimal gruvbox GTK2 theme
+A minimal gruvbox GTK theme
