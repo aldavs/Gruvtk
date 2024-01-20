@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Gruvtk
+Comment=Minimalist gruvbox GTK theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Gruvtk
+MetacityTheme=Gruvtk
+IconTheme=Adwaita
+CursorTheme=Simp1e
+ButtonLayout=minimize,maximize,close;
+X-Ubuntu-UseOverlayScrollbars=true
