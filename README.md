@@ -1,7 +1,20 @@
 # Gruvtk
-![A screenshot of GIMP in the Gruvtk theme.](doc/img/screenshot_gruvtk_gimp.png)
+<p align=center>
+  <img source="doc/img/screenshot_gruvtk_gimp.png"/>
+  <em>GIMP in the Gruvtk theme</em>
+</p>
+# About
 A minimal gruvbox GTK theme
 ## Screenshots
-![A screenshot of GFTP in the Gruvtk theme.](doc/img/screenshot_gruvtk_gftp.png)
-![A screenshot of Leafpad in the Gruvtk theme.](doc/img/screenshot_gruvtk_leafpad.png)
-![A screenshot of XQF in the Gruvtk theme.](doc/img/screenshot_gruvtk_xqf.png)
+<p align=center>
+  <img source="doc/img/screenshot_gruvtk_gftp.png"/>
+  <em>GFTP in the Gruvtk theme</em>
+</p>
+<p align=center>
+  <img source="doc/img/screenshot_gruvtk_leafpad.png"/>
+  <em>Leafpad in the Gruvtk theme</em>
+</p>
+<p align=center>
+  <img source="doc/img/screenshot_gruvtk_xqf.png"/>
+  <em>XQF in the Gruvtk theme</em>
+</p>
